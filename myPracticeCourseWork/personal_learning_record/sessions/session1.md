@@ -41,4 +41,4 @@ https://ssrn.com/abstract=3917250
 ]
 ## Summary of learning
 *What did you learn through these exercises*
-During these excercise i understood exactly how to fork which creates your very own resporitory as well as how to edit codded files and overall fundamental of how git hub works.
+During these excercise i understood exactly how to fork which creates your very own resporitory as well as how to edit codded files and overall fundamental of how git hub works. Aswell as cloning and editing code, understanding how version control works addittionally i resaerched historical computing and explored how the foundation work of early pioneers like Babbage, Lovelace, and Turing paved the way for modern computing systems.
