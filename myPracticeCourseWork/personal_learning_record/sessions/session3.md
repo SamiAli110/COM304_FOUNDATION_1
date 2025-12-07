@@ -18,9 +18,10 @@ Regarding GPIO and Hardware Control i learned GPIO pins have the abilty to be us
 )
 During my researching adding onto what was covered in this session i found out how Node RED works as a low code environment which means instead of writing code directly, Node RED uses flows, which is a visual diagrams that represents how data moves and how devices exactly interact. This makes it more simple and helped me understand exactly how GPIO, I/O without having to use raw code.
 [](https://nodered.org/docs/tutorials/)
-
+   
 I then moved on to the next stage of my research for this session which is how WiringPi provides low level control of Rapberry Pi GPIO using C code. This maps the Pi's GPIO pins to simple functions like digitalwrite() and digital() which reperesents read and write function. This helped me completley understand higher level programming languages communicate with hardware.
-## Exercises and results
+[
+](https://github.com/WiringPi/WiringPi)## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
 
 
