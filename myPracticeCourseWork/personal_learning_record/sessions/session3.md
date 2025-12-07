@@ -21,10 +21,15 @@ During my researching adding onto what was covered in this session i found out h
    
 I then moved on to the next stage of my research for this session which is how WiringPi provides low level control of Rapberry Pi GPIO using C code. This maps the Pi's GPIO pins to simple functions like digitalwrite() and digital() which reperesents read and write function. This helped me completley understand higher level programming languages communicate with hardware.
 [
-](https://github.com/WiringPi/WiringPi)## Exercises and results
-*What exercises did you complete. What results. Screen shots and notes*
+](https://github.com/WiringPi/WiringPi)
 
+## Exercises and results
+*What exercises did you complete. What results. Screen shots and notes*
+Installed Node RED on the raspberry Pi followung module instructions, built a simple flow to blink LED using Node RED. Used WiringPi commands to toggle GPIO pins manually. Conncet external LEDs and resistors on a dreadbard to create a working circuit. I made a attempt on a traffic light system using Node RED following the guest lecture demo.
+
+The results which i got from this was a successfull controlled GPIO using both Node RED and WiringPi. A built functioning LED circuit which responded to GPIO output signals. Understanding how input output elctrical signals correspond to software instructions.
 
 
 ## Summary of learning
 *What did you learn through these exercises*
+What i lernt from this session was that a system on a chip integrates multiple components into one processor. The raspberry Pi GPIO system allows software directly interact with physical hardware. A diffrence between input and output signals and how GPIO pins function in both modes. Tools such as Node Rode simplify hardware control compared to direct coding. How WiringPi provides low level access to GPIO through C code which connects software logic to electrical circuits. 
