@@ -22,10 +22,22 @@ I then continued to research virtual memory and address translation. So I starte
 ](https://www.geeksforgeeks.org/virtual-memory-in-operating-system/)
 [
 ](https://users.ece.cmu.edu/~jhoe/course/ece447/S10handouts-jose/L20.pdf?)
-## Exercises and results
-*What exercises did you complete. What results. Screen shots and notes*
 
+In conclusion, I went on to review ARM assembly documentation to better understand how low-level instructions interact with hardware-controlled memory regions.
+[
+](https://developer.arm.com/documentation/dui0489/latest/)
+## Exercises and results
+*What exercises did you complete? What results. Screen shots and notes*
+During the session, I was tasked to complete several exercises designed to connect OS theory with practical hardware-level programming. CPUlator seven-segment is what I used to write both assembly and C programs, which controlled a simulated seven-segment display. This required writing values to specific memory-mapped addresses and confirmed how low-level programs directly manipulate hardware states.
+The results of this were successfully displayed numeric sequences, gained hands-on experience in interpreting memory addresses associated with I/O devices, and improved my understanding of memory-mapped I/O. 
+
+I then went on to study interrupt behaviour in CPUlator. I did this by going step by step through examples which show how interrupts temporarily stop execution and redirect the CPU to a handler. Where then were the results of this? I learned how flags and saved program counters guarantee safe return to normal execution, and observed the registers' state on how it changed during interrupts.
+
+Rapberry Pi assembly & C i anothor exercise which executed by learning Linux which exposes GPIO through file system paths and how C programs has access to them. The results of this was i understood how user space programs interact with Kernal manged hardware and practeced compliling and running low level programs uner linux.
 
 
 ## Summary of learning
 *What did you learn through these exercises*
+From this entire session i mannaged to gain a more comprehensive view of how opreating systems manage hardware resources and enable safe, efficent execution of programs. I now have to an extent masterd the distinction between kernel space, user space, how interupts give hardware the abiltiy to signal the CPU, and how virtual memory provides isolation and protection.
+
+Working with CPUlator helped me understand along with advancing my knowlidge on how to exactly write both ARM Assembly and C programs that interact directly with hardware thorugh memory mapped I/O. Now connecting this to the Raspberry Pi environment it suppurted me to have a vision of how real world embedded system rely on OS mechanisms and low level programming. This session not only helped me but solidified the link between the thrortical structure of opreating systems and practicl behaviour of hardware level code.
