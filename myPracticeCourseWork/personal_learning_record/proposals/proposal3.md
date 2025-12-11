@@ -1,10 +1,14 @@
  
 [Personal Learning Record](../../personal_learning_record/personal_learning_record.md) | [IT Proposals](../proposals/README.md) 
 
-# Council Proposal 2
+# Council Proposal 3
 
 ## Explanation of this proposal
+This proposal recommends that council staff be given the option to work remotely and securely access internal council systems through a virtual private network, also known as VPN. As more government and public sector organisations adopt hybrid working models, reliable and secure remote access has become a necessary part of modern IT operations. Many councillors already carry out duties outside the council building, including attending community meetings, responding to constituent queries, and preparing documentation. A remote access system would support them in completing these tasks more efficiently.
 
+A VPN creates an encrypted connection between a councillor's device and the council's internet network. What this means is even when working remotley or using public WIFI, the councillor's interent connection is secured, preventing unathrised access to sesitive information this aligns with GDPR. As soon as the councillor is connected to the WIFI it will then give them the ability to acecess files, application, email systems, case mangement tools, and internal communication resources in the exact same way they would inside the council work space.
+
+The introduction of virtual private network access would reduce th requiremant of being physically present at the council workspace, increase flexibility, and support digital engagement with constituents. If in case of an emergency in terms of council building becomes inaccessible due to weather, maintenance, users, workers or councillors have the ability to continue their work rmotley without distruption.
 
 ## Technologies and research relevant to this proposal
 *Which class sessions and personal research refer to technology in this proposal? Link to examples.*
