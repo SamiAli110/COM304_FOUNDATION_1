@@ -27,10 +27,9 @@ I researched how IPv4 operates using packet switching, how each packet contains 
 As this session emphasised the difference between reliable and unreliable protocols, I read more about connectionless vs connection-oriented communication. Understanding TCP's three-way handshake, packet ordering, and retransmissions helped explain why some applications as an example video calls, would prefer UDP instead.
 
 The OS model can feel overwhelming at first, so I researched a simplified explanation that breaks down each layer with practical examples. This helped connect the physical signals to bits to frames to packets to segments to the application.  
-
+https://www.ibm.com/think/topics/osi-model
 [
-](https://www.ibm.com/think/topics/osi-model)
-## Exercises and results
+](https://www.tutorialspoint.com/how-to-keep-your-browser-safe-on-work-and-home-networks-with-an-optional-chrome-vpn-layer)## Exercises and results
 *What exercises did you complete? What results. Screen shots and notes*
 Using an online subnet calculator, I calculated the number of available host addresses for the given subnet masks:
 1. /30 network 4 addresses (2 usable)
