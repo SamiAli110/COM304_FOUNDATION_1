@@ -44,7 +44,8 @@ Additional research on important matters for this proposal:
 NHS cloud Adoption case study:
 [
 ](https://digital.nhs.uk/services/cloud-centre-of-excellence)
-
+[
+](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles)
 ## Initial Analysis of the Proposal
 *Use some simple analysis tools to help you think through whether the proposal is a good idea*
 Migrating to the cloud offers long-term efficiency, reliability, and security improvements. However, the transaction must be planned carefully to avoid disruption. However, not all systems will migrate easily, so a phased approach may be required. Staff training will also be essential to ensure new tools and workflows are adopted successfully.
