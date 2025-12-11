@@ -16,6 +16,8 @@ The benefits of migrating the council's system into the cloud are :
 5. Flexible and hybrid working
 6. Allow staff to access the system remotely from approved devices
 7. Reduce reliance on ageing server room
+
+
 Cloud systems also provide scalable computing power, meaning the council is only charged for what is being used and gives them the ability to expand or reduce capacity as needed.
 
 This proposal aligns with the UK government's "Cloud First" policy, which encourages public sector organisations to adopt cloud solutions where appropriate.
