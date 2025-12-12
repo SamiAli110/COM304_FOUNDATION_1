@@ -1,6 +1,6 @@
 [Personal Learning Record](../../personal_learning_record/personal_learning_record.md) | [IT Proposals](../proposals/README.md) 
  
-# Council Proposal 4
+# Council Proposal 6
 
 ## Explanation of this proposal
 This proposal recommends deploying Raspberry Pi devices as Internet of Things, also known as IoT sensors, to count the number of visitors entering and exiting the council's libraries and museums. People counting supports several operational needs, including capacity monitoring, safety compliance, staffing decisions, and analysing peak visitor times. At this moment in time, many councils rely on manual counting, outdated hardware, or estimation. Using IoT technology would automate this process, provide accurate real data, and reduce staff workload.
@@ -18,113 +18,18 @@ This solution aligns with modern public sector digital transformation strategies
 
 ## Technologies and research relevant to this proposal
 *Which class sessions and personal research refer to technology in this proposal? Link to examples.*
-IoT devices are part of a distributed network of small computing units connected to sensors. During the study for this proposal, which was  conducted, the findings were how IoT devices collect and transmit data, the role of edge computing sensor types (infrared, break beam, PIR, ultrasonic), network connectivity options, which are Wifi, Bluetooth, Ethernet, and data formats such as JSON or MQTT. This provides us with the foundation for how the Raspberry Pi operates as an automated counting sensor.
-
-During the practical sessions with Raspberry Pi introduced key skills were introduced which are directly relevant to this proposal: installing and configuring operating systems, connecting networks, installing services such as Apache, running Python scripts and background services, and configuring GPIO pins for sensor inputs. This means Raspberry Pi acts as the "brain" of the IoT system, which allows sensors to interact with the council's network. 
-
-IoT devices rely heavily on networking to transmit data. Key networking concepts include:
-1. IP addresses for IoT devices
-2. DHCP and static addressing
-3. WIFI configuration
-4. Firewalls to restrict device access
-5. Sending data to central servers
-This session supports the understanding of Raspberry Pi and how they will communicate with council systems. However, IoT devices can be really vulnerable if not properly secured. A way around these limitations is securing SSH access, limiting network permissions, and encrypting data transmission.
 
 
-
-(https://learn.microsoft.com/en-us/azure/iot/iot-introduction)(https://www.ibm.com/think/topics/internet-of-things)
 ## Initial Analysis of the Proposal
-Using Raspberry Pi as IoT people counters is cost-effective, scalable, and practical. It reduces manual counting and provides accurate data for operational planning. However, the council must consider sensor accuracy, network reliability, device security, and maintenance requirements. A pilot deployment would help determine the best sensor type and placement.
+
+
 ### SWOT Analysis
 *You can use html tables in markdown*
- <table>
-  <tr>
-    <th>Strength</th>
-    <th>Weakness</th>
-  </tr>
-  <tr>
-    <td>
-      <ol>
-        <li>Low cost hardware with high flexibility </li>
-        <li>Automated real time vistor counting</li>
-        <li>Easy integration with council data systems</li>
-      </ol> 
-    </td>
-    <td>
-      <ol>
-        <li>Requires reliable WiFi or network access</li>
-        <li>Sensors may miscount if poorly positioned</li>
-        <li>Ongoing updates and maintenance needed</li>
-      </ol>
-    </td>
-  </tr>
-  <tr>
-    <th>Opportunity</th>
-    <th>Threat</th>
-  </tr>
-  <tr>
-    <td>
-      <ol>
-        <li>Supports smart building initatives</li>
-        <li>Enables long-term data analysis for service planning</li>
-        <li>Can expand into environmental or security monitoring</li>
-      </ol> 
-    </td>
-    <td>
-      <ol>
-        <li>Cyber attacks targeting IoT/li>
-        <li>Hardware faults or power issues may disrupt data collection</li>
-        <li>Public tampering or vandalism risks</li>
-      </ol> 
-    </td>
-  </tr>
-</table> 
+<table> <tr> <th>Strength</th> <th>Weakness</th> </tr> <tr> <td> <ol> <li>24/7 access to council services.</li> <li>Reduces workload on call centres and in-person offices.</li> <li>Centralised data improves service processing.</li> </ol> </td> <td> <ol> <li>Initial development and infrastructure costs.</li> <li>Some residents may lack digital skills or devices.</li> <li>Requires ongoing updates and cybersecurity monitoring.</li> </ol> </td> </tr> <tr> <th>Opportunity</th> <th>Threat</th> </tr> <tr> <td> <ol> <li>Supports long-term digital transformation goals.</li> <li>Improves public satisfaction and transparency.</li> <li>Enables advanced features such as live chat or AI assistance.</li> </ol> </td> <td> <ol> <li>Cyber attacks targeting public-facing platforms.</li> <li>System outages could impact all digital services.</li> <li>Accessibility issues if not properly designed.</li> </ol> </td> </tr> </table>
 
 ### PEST Analysis
 *You can use html tables in markdown*
-
- <table>
-  <tr>
-    <th>Political</th>
-    <th>Economic</th>
-  </tr>
-  <tr>
-    <td>
-      <ol>
-        <li>Supports modern public sector digital transformation policies </li>
-        <li>Improves monitoring for health and safety regulations</li>
-        <li>Enables evidence-based decision making for funding</li>
-      </ol> 
-    </td>
-    <td>
-      <ol>
-        <li>Low cost implementation compared to commercial systems</li>
-        <li>Saves staffing resources long term</li>
-        <li>initial setup requires purchasing sensors and devices.</li>
-      </ol> 
-    </td>
-  </tr>
-  <tr>
-    <th>Social</th>
-    <th>Technological</th>
-  </tr>
-  <tr>
-    <td>
-      <ol>
-        <li>Improves visitor experiences through better space management</li>
-        <li>Supports accessible, well-managed public environments </li>
-        <li>Reduces manual counting tasks for staff</li>
-      </ol> 
-    </td>
-    <td>
-      <ol>
-        <li>Uses modern IoT technologies</li>
-        <li>Scales easily across multiple buildings</li>
-        <li>Integrates with cloud dashboards and analytics tools</li>
-      </ol> 
-    </td>
-  </tr>
-</table> 
+<table> <tr> <th>Political</th> <th>Economic</th> </tr> <tr> <td> <ol> <li>Aligns with UK Government digital transformation policies.</li> <li>Improves transparency and public accountability.</li> <li>Supports national accessibility and inclusion standards.</li> </ol> </td> <td> <ol> <li>Reduces long-term operational costs through automation.</li> <li>Lowers staffing burden for manual processes.</li> <li>Initial investment required for development and hosting.</li> </ol> </td> </tr> <tr> <th>Social</th> <th>Technological</th> </tr> <tr> <td> <ol> <li>Improves convenience and accessibility for residents.</li> <li>Supports hybrid and remote lifestyles.</li> <li>Provides clear communication channels for community issues.</li> </ol> </td> <td> <ol> <li>Enables integration with modern cloud and app technologies.</li> <li>Supports future upgrades such as AI chatbots.</li> <li>Scalable to meet growing demand.</li> </ol> </td> </tr> </table>
 
 ## Questions to ask about the proposal
 *Without knowing how exactly the council will implement this proposal, what questions should be raised?*
