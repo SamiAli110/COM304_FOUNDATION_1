@@ -4,37 +4,36 @@
 # Council Proposal 8
 
 ## Explanation of this proposal
-This proposal recommends that the council adopt a low-code/no-code (LCNC) development strategy combined with agile project management to modernise how digital tools and internal applications are created. Traditional software development requires specialist programmers and longer development cycles, which can make it difficult for councils to respond quickly to emerging service needs or operational changes.
 
-Low-code platforms allow users to build applications using visual interfaces, pre-built components and automation tools. No code platforms allow non-technical staff, also known as citizen developers, to create workflows and simple applications without using code at all. 
-Benefits to the council:
-1. Faster development of internal tools and workflows
-2. Reduced reliance on expensive external developers
-3. Empowering staff to solve problems directly
-4. Increased innovation across departments
-5. Lower long-term maintenance costs
-Agile methodologies complement LCNC development by encouraging
-1. ilertive progress
-2. frequent testing
-3. user feedback
-4. flexibility
-5. continuous improvement
-Many public sector organisations now combine agile and low code to their platforms to accelerate digital transformation.
+This proposal recommends that the council introduce Artificial Intelligence technologies to simplify and streamline everyday operational tasks. AI can support decision-making, automate repetitive processes, assist with customer inquiries, and improve the efficiency of internal workflows. Many councils across the UK and internally now use AI systems for tasks such as document classification, chatbot support, fraud detection, resource planning, and predictive maintenance.
+AI is a broad field which includes:
+1. Machine learning
+2. Natural language processing
+3. Computer vision
+4. Automation and intelligent workflows
+By integrating these technologies into council operations, the organization can reduce staff administrative workload, provide faster responses to public inquiries, detect issues earlier, improve decision making using data-driven insights, and automate routine tasks such as sorting forms or categorizing emails.
+
+AI also supports public engagement through:
+virtual assistants on the council website
+1.automated appointment scheduling
+2,voice or chatbot interfaces
+3.accessible digital services for users with disabilities
+4.AI adoption aligns with the UK Government’s digital strategy, which 5.encourages innovation, efficiency, and responsible use of data-driven technologies.
 
 ## Technologies and research relevant to this proposal
 *Which class sessions and personal research refer to technology in this proposal? Link to examples.*
 
-Software development involves core computing concepts such as logic, algorithms, programming structure, and system design. All these principles help explain why LCNC platforms are effective. They abstract much of the complexity by providing visual components and pre-made logic blocks.
+Opreating systems link to this as AI systems rely on operating systems to manage:
+1. Processes
+2. Memory
+3. File systems
+4. GPU / CPU resources
+Understanding OS fundamental supports how machine learning workloads run on servers or cloud platforms.
 
-Operating systems in session 8 also correlate to this proposal. Software created using LCNC tools still runs on operating systems, which include concepts like:
-1. Process management
-2. Memory allocation
-3. System calls
-All explain why LCNC apps rely on traditional OS principles behind the scenes.
-Web servers and API integration, which is covered in Apache practical  sessions, also link to LCNC tools that often rely on API or microservices, similar to how web servers expose functionality.
+Cloud computing covered in session 10 also links to this. Modern AI systems typically rely on cloud platforms due to scalable computing resources, powerful graphics processing units, automated training pipelines, and secure hosting environments. Cloud services such as Microsoft Azure AI, AWS AI, and Google Cloud AI provide ready-made tools for councils.
 
 ## Initial Analysis of the Proposal
-Moving towards low code/ no code and Agile methodologies all allow the council to deliver new digital services more efficiently while reducing development costs. However, the council must ensure that LCNC tools meet accessibility, cybersecurity, and integration requirements. Staff will all require training, and complex systems will require traditional coding.
+Introducing AI would significantly improve council efficiency by automating routing tasks and enhancing decision-making. However, the council must ensure appropriate governance, transparency, and ethical oversight. Not all processes are sustainable for AI, and staff training will be necessary. A phased pilot approach is recommended.
 
 *You can use html tables in markdown*
 <table> <tr> <th>Strength</th> <th>Weakness</th> </tr> <tr> <td> <ol> <li>Automates time-consuming administrative tasks.</li> <li>Improves accuracy and speed of service delivery.</li> <li>Supports data-driven decision making.</li> </ol> </td> <td> <ol> <li>Requires specialist knowledge to implement responsibly.</li> <li>Potential bias or errors in poorly trained models.</li> <li>Initial investment in training and technology.</li> </ol> </td> </tr> <tr> <th>Opportunity</th> <th>Threa*</th> </tr> <tr> <td> <ol> <li>Aligns with national digital transformation strategies.</li> <li>Frees staff to focus on higher-value tasks.</li> <li>Enables innovative new services for residents.</li> </ol> </td> <td> <ol> <li>Cybersecurity threats targeting AI systems.</li> <li>Public concern over automated decision-making.</li> <li>Risk of dependency on third-party AI providers.</li> </ol> </td> </tr> </table>
@@ -46,8 +45,9 @@ Moving towards low code/ no code and Agile methodologies all allow the council t
 *Without knowing how exactly the council will implement this proposal, what questions should be raised?*
 
 * question 1
-
+Should AI tools be developed internally or outsourced?
 * question 2
-
+How will residents be informed about AI-assisted services?
 ## Evaluation of the proposal
 *Provide a brief evaluation based on what you know*
+AI offers significant opportunities for simplifying council operations, improving public services, and increasing efficiency. When implemented responsibly, AI can automate routine work, enhance communication, and support better decision-making. The council must ensure ethical oversight, robust security, and transparent communication with the public. With these considerations in place, AI adoption is a highly valuable strategic investment for modernising council operations.
