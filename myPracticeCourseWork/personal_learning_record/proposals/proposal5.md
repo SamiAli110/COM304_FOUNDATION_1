@@ -4,38 +4,16 @@
 # Council Proposal 5
  
 ## Explanation of this proposal
-This proposal recommends that council staff be given the option to work remotely and securely access internal council systems through a virtual private network, also known as VPN. As more government and public sector organisations adopt hybrid working models, reliable and secure remote access has become a necessary part of modern IT operations. Many councillors already carry out duties outside the council building, including attending community meetings, responding to constituent queries, and preparing documentation. A remote access system would support them in completing these tasks more efficiently.
 
-A VPN creates an encrypted connection between a councillor's device and the council's internet network. What this means is even when working remotely or using public WIFI, the councillor's internet connection is secured, preventing unauthorised access to sensitive information. This aligns with GDPR. As soon as the councillor is connected to the WIFI, it will then give them the ability to access files, applications, email systems, case management tools, and internal communication resources in the same way they would inside the council workspace.
 
-The introduction of virtual private network access would reduce the requirement of being physically present at the council workspace, increase flexibility, and support digital engagement with constituents. In case of an emergency, in the event that the council building becomes inaccessible due to weather, maintenance, users, workers or councillors can continue their work remotely without disruption.
 
 ## Technologies and research relevant to this proposal
 *Which class sessions and personal research refer to technology in this proposal? Link to examples.*
 
-Session 4 and 5 VPN's depend on core networking concepts, which were studied in earlier sessions:
-1. IP addressing
-2. Routing
-3. DNS
-4. Ports and Protocols
-5. Encryption and tunnelling
-6. Authentication systems
-Understanding these principles explains how VPN create secure pathways into council networks.
-
-Operating Systems covered in session 8 support VPN clients running within operating systems and often require additional system services for authentication and file access. User accounts, file system access, process management, and secure login procedures are all covered in session 8. These concepts make it clear how remote systems interact with internal applications. 
-
-VPNs play a key role in cybersecurity strategy.
-1. Encryption (AES, TLS)
-2. Password policies
-3. multi-factor authentication (MFA)
-4. Preventing man-in-the-middle attacks
-5. Device security requirements
-NCSC guidance emphasises the importance of strong authentication, device health checks, secure configuration, and continuous updates.
-(https://www.ncsc.gov.uk/collection/device-security-guidance/infrastructure/virtual-private-networks?
 
 ## Initial Analysis of the Proposal
-*Use some simple analysis tools to help you think through whether the proposal is a good idea*
-Therefore, enabling VPN access for councillors offers significant benefits in flexibility, productivity and resilience. This goes on to support modern working practices and provides secure access to council information without requiring physical presence in the office. However, it will require strong cybersecurity measures, training for councillors, and clear polices on device use. A pilot rollout may help identify technical or usability issues before full adoption, which helps it becoming time-consuming as well as saving money.
+
+
 
 
 *You can use html tables in markdown*
@@ -47,16 +25,16 @@ Therefore, enabling VPN access for councillors offers significant benefits in fl
   <tr>
     <td>
       <ol>
-        <li>Improves flexibility and supports remote working</li>
-        <li>Secure access to internal systems</li>
-        <li>Enhances business continuity during disruptions</li>
+        <li>Reduced licensing and long-term operational costs</li>
+        <li>Greater transparency and auditability of security</li>
+        <li>High customisation and flexibility</li>
       </ol> 
     </td>
     <td>
       <ol>
-        <li>Requires councillors to follow cybersecurity rules.</li>
-        <li>Potential technical support issues for less experienced users</li>
-        <li>initial setup and configuration costs</li>
+        <li>Some OSS lacks dedicated commercial support.</li>
+        <li>Staff may need training on unfamiliar tools</li>
+        <li>Not all specialist software has OSS equivalents</li>
       </ol>
     </td>
   </tr>
@@ -67,16 +45,16 @@ Therefore, enabling VPN access for councillors offers significant benefits in fl
   <tr>
     <td>
       <ol>
-        <li>Aligns with digital government strategies/li>
-        <li>supports broader hybrid working adoption</li>
-        <li>Reduces physical dependency on council buildings</li>
+        <li>Aligns with global public sector digital strategies/li>
+        <li>Encourages innovation and internal devlopmeant</li>
+        <li>Increases indpendance from vendors </li>
       </ol> 
     </td>
     <td>
       <ol>
-        <li>Potential cyber attacks targeting VPN connections.</li>
-        <li>Risk of compromised devices if security rules are not enforced</li>
-        <li>Home network vulnerabilities can affect security</li>
+        <li>Security risks if OSS is poorly maintained</li>
+        <li>Resistance from staff accustomed to proprietary tools</li>
+        <li>Incompatibility with legacy systems</li>
       </ol> 
     </td>
   </tr>
@@ -132,10 +110,9 @@ Therefore, enabling VPN access for councillors offers significant benefits in fl
 *Without knowing how exactly the council will implement this proposal, what questions should be raised?*
 
 * question 1
-What VPN solution best fits the council's security requirements?
+
 * question 2
-How will home network security be assessed?
+
 ## Evaluation of the proposal
 *Provide a brief evaluation based on what you know*
 
-Allowing councillors to work remotely through a secure VPN connection is an incredible, practical and forward-thinking. This supports flexibility, maintains productivity and ensures continuity during disruptions. However, some challenges mainly involve training, device management, and cybersecurity enforcement, but these can be addressed through clear policies and modern security tools. In conclusion, this proposal has challenges, but it can be fixed, and it aligns with national guidance and represents a valuable improvement to council operations. 
