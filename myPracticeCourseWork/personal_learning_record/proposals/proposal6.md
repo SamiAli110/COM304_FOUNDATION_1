@@ -3,25 +3,32 @@
 # Council Proposal 6
 
 ## Explanation of this proposal
-This proposal recommends deploying Raspberry Pi devices as Internet of Things, also known as IoT sensors, to count the number of visitors entering and exiting the council's libraries and museums. People counting supports several operational needs, including capacity monitoring, safety compliance, staffing decisions, and analysing peak visitor times. At this moment in time, many councils rely on manual counting, outdated hardware, or estimation. Using IoT technology would automate this process, provide accurate real data, and reduce staff workload.
+This proposal recommends that the council adopt a digital-first strategy, making the official council website and mobile application the primary platforms for residents to access services, information, and support. This approach is increasingly common in modern public sector organizations, enabling faster, more convenient, and more efficient service delivery
 
-A Raspberry Pi is a small, affordable computer capable of connecting to sensors such as infrared beams, ultrasonic distance sensors, or computer vision cameras. When installed at the entrances and exits of the council building, these devices can detect movement, log entries and exits, and securely send the data back to the council's central systems. This becomes a part of a wider "smart building" strategy that supports data-driven decision-making.
+A digital-first model centralizes public interaction through online systems instead of relying heavily on in-person visits, paper forms, or telephone-based services. Examples of services which can be accessed through the website or app include:
 
-Key benefits for the council are:
-1. Real-time occupancy tracking for safety and crowd management
-2. Accurate visitor statistics to improve service planning
-3. Automated data collection without requiring staff intervention
-4. Scalability, since Raspberry Pis are inexpensive and easy to deploy
-5. Integration with dashboards or analytics systems for reporting
-This solution aligns with modern public sector digital transformation strategies, where IoT devices are increasingly used for building management, environmental monitoring, and improving operational efficiency.
-
+1. Submitting applications (housing, parking permits, waste services)
+2. making payments (council tax, fines, and bookings)
+3. Reporting issues
+4. Requesting appointmeants with council offercers
+5. accessing library and museum information
+6. tracking the progress of submitted requests
+A well-designed website and app provide 24/7 access, reduce waiting time, and improve customer satisfaction. The council benefits from reduced administrative workload, streamlined processes, clear data collection, and more efficient use of resources. This proposal aligns with the UK government's commitment to modernizing public services through digital transformation, as outlined in the Government Digital Service Framework
 
 ## Technologies and research relevant to this proposal
 *Which class sessions and personal research refer to technology in this proposal? Link to examples.*
+Apache practical work in our sessions helps understand the processes of setting up web servers, managing virtual hosts, serving content securely via HTTPS, and optimising server performance. This mirrors the infrastructure needed to support high high-traffic website.
 
+Digital services rely heavily on robust networking. These sessions covered the following;
+1. DNS (critical for resolving council website and app domain)
+2. IP addressing
+3. SECURE communicatiojn protocols
+4. Firewalls and access control
+These are essential components of secure online delivery.
 
+Cloud computing supports modern council websites and apps as it runs on a cloud infrastructure. Cloud platforms, on the other hand, offer a wide range of benefits such as scalability, high availability, automatic backups, global content delivery networks, and stronger security monitoring.
 ## Initial Analysis of the Proposal
-
+Making the website and app the primary gateways for public engagement would improve accessibility, efficiency, and service quality. However, it requires investment in reliable infrastructure, security measures, user experience design, and digital accessibility to meet government standards. Some users may still require non-digital alternatives; therefore, a balanced transition plan will be required.
 
 ### SWOT Analysis
 *You can use html tables in markdown*
@@ -40,3 +47,4 @@ Will data be stored locally, on the council server, or in the cloud?
 How often will devices require updates and maintenance?
 ## Evaluation of the proposal
 *Provide a brief evaluation based on what you know*
+A digital-first strategy offers significant advantages, including better accessibility, reduced operational costs, and improved efficiency in handling public requests. When supported by strong cybersecurity, accessible design, and reliable cloud hosting, the website can become a powerful tool for modern public engagement.
