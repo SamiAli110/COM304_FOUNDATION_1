@@ -4,7 +4,7 @@
 
 ## Topics covered
 *What topics were covered in this session*
-n Session 10, we learned about the historical development of the Internet and the fundamentals of cloud computing.
+in Session 8, we learned about the historical development of the Internet and the fundamentals of cloud computing.
 The session started with an overview of the evolution of the Internet, from early research networks (such as ARPANET) through the development of TCP/IP, up to the modern global network that supports email, web services, and cloud platforms. Key concepts included packet switching, the role of standard protocols, and how decentralised networks expanded into worldwide connectivity.
 We also explored the basics of cloud computing. This included understanding how cloud services allow organisations and users to store, process, and access data remotely over the Internet. We discussed benefits such as scalability, flexibility, collaboration, remote access, and how cloud platforms reduce the need for local infrastructure. The session then introduced signing up for an Azure Cloud account using a student email, and how cloud resources can be managed through online dashboards.
 
